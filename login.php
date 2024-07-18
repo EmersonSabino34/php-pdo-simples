@@ -24,7 +24,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h3 class="text-center">Acesso Restrito!</h3>
-                        <form action="loginAction.php" method="POST">
+                        <form action="gestor/" method="POST">
                             <div class="mb-3">
                                 <label>Usuário</label>
                                 <input type="text" name="usuario" class="form-control">

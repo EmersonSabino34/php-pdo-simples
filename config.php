@@ -2,7 +2,7 @@
     define('HOST', 'localhost');
     define('USER', 'root');
     define('PASS', '');
-    define('BASE', 'mudi');
+    define('BASE', 'mercadolivre');
 
     $conn = new MySQLI(HOST, USER, PASS, BASE);
 

@@ -10,9 +10,9 @@ include("config.php");
 $usuario = $_POST["usuario"];
 $senha = $_POST["senha"];
 
-$sql = "SELECT * FROM users 
-                WHERE nome = '{$usuario}' 
-                AND senha = '{$senha}'
+$sql = " SELECT * FROM users 
+                  WHERE nome = '{$usuario}' 
+                  AND senha = '{$senha}'
         ";
 // AND senha = '{$senha}'
 // AND senha = '".md5($senha)."';

@@ -1,4 +1,4 @@
-<?php include "./../conexao.php"; ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -10,7 +10,7 @@
 </head>
 <body class="container">
 <div class="jumbotron text-center">
-        <h1>Cadastro de Gestor</h1>
+        <h1 class="mb-5 mt-5">Cadastro de Gestor</h1>
     </div>
     <?php
         $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
