@@ -13,6 +13,7 @@
             background: darkviolet;
             height: 100vh;
             display: flex;
+            font-weight: bold;
             justify-content: center;
             align-items: center;
         }
@@ -27,11 +28,11 @@
                         <form action="gestor/" method="POST">
                             <div class="mb-3">
                                 <label>Usuário</label>
-                                <input type="text" name="usuario" class="form-control">
+                                <input type="text" name="usuario" id="usuario" class="form-control">
                             </div>
                             <div class="mb-3">
                                 <label>Senha</label>
-                                <input type="password" name="senha" class="form-control">
+                                <input type="password" name="senha" id="senha" class="form-control">
                             </div>
                             <button type="submit" class="btn btn-outline-success">Entrar</button>
                         </form>
