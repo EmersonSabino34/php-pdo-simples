@@ -25,7 +25,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h3 class="text-center">Acesso Restrito!</h3>
-                        <form action="gestor/" method="POST">
+                        <form action="gestor/" method="POST" id="login">
                             <div class="mb-3">
                                 <label>Usuário</label>
                                 <input type="text" name="usuario" id="usuario" class="form-control">
@@ -41,5 +41,11 @@
             </div>
         </div>
     </div>
+    <script>
+        function validar(e){
+            e.preventDefault()
+            alert('Validado');
+        }
+    </script>
 </body>
 </html>
