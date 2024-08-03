@@ -10,6 +10,12 @@ SELECT
     FROM cliente
 WHERE sexo = 'feminino'
 
+-- Contando o total do sexo feminino
+SELECT
+    COUNT(*) as 'total de mulheres'
+    FROM cliente
+WHERE sexo = 'feminino'
+
 -- Contando o total do sexo masculino
 SELECT
     COUNT(*) as 'total de homens'
